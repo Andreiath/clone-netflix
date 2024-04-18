@@ -1,0 +1,72 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 4em 1rem 4em;
+    gap: 2.5rem;
+}
+.footer_container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.icones_redes{
+    display: flex;
+    color: #fff;
+    font-size: 1.5rem;
+    gap: 2rem;
+    padding-bottom: 1rem;
+
+
+}
+
+.fa-brands:hover{
+    transition: 500ms;
+    transform: scale(1.2);
+
+}
+
+.footer_filmes{
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+}
+
+.footer__lista{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    
+   
+}
+
+.footer__lista li{
+    color: #bfb9b9aa;
+
+}
+
+.footer__lista li:hover{
+    text-decoration: underline;
+}
+
+.btn_footer{
+  width: fit-content; 
+  padding: 0.5rem;
+  background-color: transparent;
+  color: #bfb9b9aa ;
+  border: 1px solid #bfb9b9aa;
+
+}
+
+.btn_footer:hover{
+    background-color:#bfb9b9e5;
+    color:black;
+
+}
+
+.rodape{
+    color: #bfb9b9aa;
+    font-size: 0.8rem;
+
+}

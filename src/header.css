@@ -1,0 +1,61 @@
+.logo{
+    width: 150px;
+}
+
+.cabecalho{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5em;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.menu__lista{
+    display: flex;
+    gap: 1rem;
+}
+
+.menu__link{
+    font-size: 1.5em;
+
+}
+.menu__link:hover{
+    color: brown;
+    transition: 500ms;
+    transform: scale(1.1);
+}
+
+
+
+.icones__cabecalho{
+    display: flex;
+    align-items: center;
+    margin-right: 1em ;
+    gap: 1.5em;
+}
+
+.icones__cabecalho img{
+    width: 32px;
+}
+
+.usuario{
+    align-items: center;
+    display: flex;
+    gap: 0.5em;
+}
+
+.usuario img{
+    width: 40px;
+    border-radius: 0.2em;
+}
+
+.seta img{
+    width: 15px;
+}
+

@@ -1,0 +1,30 @@
+.trilho__lista{
+    color: #ffff;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.container_filmes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20rem;
+    row-gap: 2rem;
+}
+
+.lista_filmes{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.img_filmes{
+    display: flex;
+    gap: 0.7rem;
+    transition: 700ms;
+}
+
+.img_filmes img:hover{
+    transition: 500ms ease-in;
+    transform: scale(1.1);
+}
